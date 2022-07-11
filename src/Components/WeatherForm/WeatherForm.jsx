@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { fetchData } from '../../services/api';
-import { WeatherList } from '../WeatherList/WeatherList';
+import { WeatherList } from './WeatherList/WeatherList';
 import s from './WeatherForm.module.css'
 
 export const WeatherForm = ({ create }) => {

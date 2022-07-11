@@ -1,5 +1,5 @@
 import React from 'react'
-import { WeatherCard } from '../WeatherCard/WeatherCard';
+import { WeatherCard } from './WeatherCard/WeatherCard'
 import s from './WeatherList.module.css'
 
 export const WeatherList = ({ cards }) => {
