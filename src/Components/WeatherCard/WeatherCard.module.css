@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 250px;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.cold {
+    background: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+}
+
+.sun {
+    color: #fff;
+    background-image: linear-gradient(to right, #ff512f, #f09819);
+}
